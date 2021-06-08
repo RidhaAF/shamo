@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shamo/theme.dart';
+import 'package:shamo/widgets/chat_bubble.dart';
 
 class DetailchatPage extends StatelessWidget {
   @override
@@ -142,6 +143,24 @@ class DetailchatPage extends StatelessWidget {
       );
     }
 
+    Widget content() {
+      return ListView(
+        padding: EdgeInsets.symmetric(
+          horizontal: defaultMargin,
+        ),
+        children: [
+          ChatBubble(
+            isSender: true,
+            text: 'Hi, This is still available?',
+          ),
+          ChatBubble(
+            isSender: false,
+            text: 'Good night, This item is only available in size 43 and 43',
+          ),
+        ],
+      );
+    }
+
     return Scaffold(
       backgroundColor: backgroundColor3,
       appBar: PreferredSize(
@@ -149,6 +168,7 @@ class DetailchatPage extends StatelessWidget {
         child: header(),
       ),
       bottomNavigationBar: chatInput(),
+      body: content(),
     );
   }
 }
