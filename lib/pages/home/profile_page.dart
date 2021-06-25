@@ -13,6 +13,7 @@ class ProfilePage extends StatelessWidget {
     Widget header() {
       return AppBar(
         backgroundColor: backgroundColor1,
+        brightness: Brightness.dark,
         automaticallyImplyLeading: false,
         elevation: 0,
         flexibleSpace: SafeArea(

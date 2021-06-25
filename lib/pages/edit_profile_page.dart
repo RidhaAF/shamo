@@ -19,6 +19,7 @@ class EditProfilePage extends StatelessWidget {
           icon: Icon(Icons.close),
         ),
         backgroundColor: backgroundColor1,
+        brightness: Brightness.dark,
         elevation: 0,
         centerTitle: true,
         title: Text(

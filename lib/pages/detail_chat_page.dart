@@ -8,6 +8,7 @@ class DetailchatPage extends StatelessWidget {
     Widget header() {
       return AppBar(
         backgroundColor: backgroundColor1,
+        brightness: Brightness.dark,
         centerTitle: false,
         title: Row(
           children: [

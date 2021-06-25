@@ -12,6 +12,7 @@ class CheckoutPage extends StatelessWidget {
     Widget header() {
       return AppBar(
         backgroundColor: backgroundColor1,
+        brightness: Brightness.dark,
         elevation: 0,
         centerTitle: true,
         title: Text(

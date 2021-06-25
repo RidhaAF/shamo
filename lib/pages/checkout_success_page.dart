@@ -7,6 +7,7 @@ class CheckoutSuccessPage extends StatelessWidget {
     header() {
       return AppBar(
         backgroundColor: backgroundColor1,
+        brightness: Brightness.dark,
         centerTitle: true,
         title: Text(
           'Checkout Success',

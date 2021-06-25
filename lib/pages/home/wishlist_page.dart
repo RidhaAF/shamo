@@ -12,6 +12,7 @@ class WishlistPage extends StatelessWidget {
     Widget header() {
       return AppBar(
         backgroundColor: backgroundColor1,
+        brightness: Brightness.dark,
         centerTitle: true,
         title: Text(
           'Favorite Shoes',
