@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "690058044817",
+    "project_id": "shamo-app-f3ac3",
+    "storage_bucket": "shamo-app-f3ac3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690058044817:android:ddb2ed51a0dba247b2e630",
+        "android_client_info": {
+          "package_name": "com.ridhaaf.shamo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690058044817-et35keqothrmtmp43lcviu3leuuc69c3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf1-QyHvli6mjNYkL3d7wOzsgUq3LgJEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690058044817-et35keqothrmtmp43lcviu3leuuc69c3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
